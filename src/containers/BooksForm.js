@@ -1,4 +1,3 @@
-/* eslint-disable react/no-array-index-key */
 import React from 'react';
 
 const BooksForm = () => {
@@ -8,7 +7,7 @@ const BooksForm = () => {
       <input type="text" placeholder="Add title" />
       <select name="Book Category" id="select">
         {bookCategory.map((x, i) => (
-          <option key={i}>{x}</option>
+          <option key={i.id}>{x}</option>
         ))}
 
       </select>

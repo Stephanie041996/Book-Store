@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -19,7 +18,7 @@ const BookList = ({ books }) => (
   </table>
 );
 BookList.propTypes = {
-  books: PropTypes.array,
+  books: PropTypes.arrayOf,
 
 };
 BookList.defaultProps = {

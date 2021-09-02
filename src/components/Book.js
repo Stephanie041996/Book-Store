@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Book = ({ books }) => (
   <tbody>
@@ -16,5 +16,9 @@ const Book = ({ books }) => (
   </tbody>
 
 );
+
+Book.propTypes = {
+  books: PropTypes.shape.isRequired,
+};
 
 export default Book;
