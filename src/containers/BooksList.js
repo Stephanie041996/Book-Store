@@ -3,22 +3,29 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Book from '../components/Book';
 
-const BookList = ({ books }) => (
-  <table>
-    <thead>
-      <tr>
-        <th>Book ID</th>
-        <th>Title</th>
-        <th>Category</th>
+const BookList = ({ books }) => {
+  const handleRemoveBook = (index) => {
+    store.dispatch(removeBook(index));
+  };
 
-      </tr>
-    </thead>
-    <Book books={books} />
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Category</th>
+          <th>Remove</th>
 
-  </table>
-);
+        </tr>
+      </thead>
+      <Book books={books} remove={handleRemoveBook} />
+
+    </table>
+  );
+};
 BookList.propTypes = {
-  books: PropTypes.arrayOf,
+  books: PropTypes.array,
 
 };
 BookList.defaultProps = {
