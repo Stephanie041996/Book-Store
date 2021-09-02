@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Book from '../components/Book';
+import store from '../reducers';
+import { removeBook } from '../actions';
 
 const BookList = ({ books }) => {
   const handleRemoveBook = (index) => {
@@ -25,7 +27,7 @@ const BookList = ({ books }) => {
   );
 };
 BookList.propTypes = {
-  books: PropTypes.array,
+  books: PropTypes.arrayOf,
 
 };
 BookList.defaultProps = {
