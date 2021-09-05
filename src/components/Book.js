@@ -20,9 +20,17 @@ const Book = ({ books, remove }) => (
 
 Book.propTypes = {
   books: PropTypes.arrayOf(
-    
+    PropTypes.shape({
+      id: PropTypes.number,
+      title: PropTypes.string,
+      category: PropTypes.string,
+    }),
   ),
-  remove: PropTypes.string.isRequired,
+  remove: PropTypes.func.isRequired,
+
+};
+Book.defaultProps = {
+  books: [],
 };
 
 export default Book;
