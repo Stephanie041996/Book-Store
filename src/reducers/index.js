@@ -1,5 +1,5 @@
 import { combineReducers, createStore } from 'redux';
-import bookReducer from './books';
+import bookReducer from './Books';
 import filterReducer from './filter';
 
 const rootReducer = combineReducers({

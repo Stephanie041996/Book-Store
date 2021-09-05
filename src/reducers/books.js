@@ -32,6 +32,7 @@ const bookReducer = (state = initialState, action) => {
         ...state,
         books: state.books.filter((item) => item !== action.payload),
       };
+
     default:
       return state;
   }
