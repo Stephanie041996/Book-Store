@@ -31,8 +31,8 @@ const BooksForm = () => {
       <form>
         <input id="book" name="title" placeholder="Add title" value={title} onChange={handleChange} />
         <select name="category" id="book-category" onChange={handleChange} value={category}>
-          {bookCategory.map((x, i) => (
-            <option key={i.id}>{x}</option>
+          {bookCategory.map((x) => (
+            <option key={x}>{x}</option>
           ))}
 
         </select>
