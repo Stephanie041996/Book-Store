@@ -24,7 +24,7 @@ const BooksForm = () => {
     e.preventDefault();
   };
 
-  const bookCategory = ['Category', 'Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
+  const bookCategory = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
   const { title, category } = book;
   return (
     <div className="book-form">
