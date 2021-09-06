@@ -33,10 +33,19 @@ const BooksForm = () => {
       </h4>
       <form>
         <input id="book" name="title" placeholder="Book title" value={title} onChange={handleChange} />
-        <select name="category" id="book-category" onChange={handleChange} value={category}>
-          {bookCategory.map((x) => (
-            <option key={x}>{x}</option>
-          ))}
+        <select name="category" id="book-category" onChange={handleChange} value={category} placeholder="Category">
+          {bookCategory.map((x) => {
+            if (x === 'Category') {
+              return (
+                <option key={x} hidden className="place">{x}</option>
+              );
+            }
+
+            return (
+
+              <option key={x}>{x}</option>
+            );
+          })}
 
         </select>
 
