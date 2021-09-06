@@ -8,12 +8,6 @@ const initialState = {
   },
   {
     id: Math.floor(Math.random() * 30),
-    title: 'Cracking the coding Interview',
-    category: 'Learning',
-
-  },
-  {
-    id: Math.floor(Math.random() * 30),
     title: 'The First world war',
     category: 'History',
 
