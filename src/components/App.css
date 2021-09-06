@@ -116,6 +116,25 @@ th {
   letter-spacing: -0.4px;
 }
 
+.progress-bar h4 {
+  width: 2.938rem;
+  height: 2.438rem;
+  margin: 0.063rem 7.063rem 0 0.688rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+
+.progress-bar p {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0 0.75rem;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+}
+
 .book-detail .desc h4 {
   width: 7rem;
   height: 1.125rem;
@@ -277,25 +296,6 @@ th {
 
 .circle-bar {
   margin: 0.75rem;
-}
-
-.progress-bar h4 {
-  width: 2.938rem;
-  height: 2.438rem;
-  margin: 0.063rem 7.063rem 0 0.688rem;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: normal;
-  margin-top: 1rem;
-}
-
-.progress-bar p {
-  width: 5rem;
-  height: 1.125rem;
-  margin: 0.438rem 4.938rem 0 0.75rem;
-  opacity: 0.5;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.875rem;
 }
 
 ::placeholder {
