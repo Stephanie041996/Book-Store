@@ -28,6 +28,9 @@ const BooksForm = () => {
   const { title, category } = book;
   return (
     <div className="book-form">
+      <h4>
+        ADD NEW BOOK
+      </h4>
       <form>
         <input id="book" name="title" placeholder="Book title" value={title} onChange={handleChange} />
         <select name="category" id="book-category" onChange={handleChange} value={category}>

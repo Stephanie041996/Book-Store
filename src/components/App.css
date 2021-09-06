@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f6fa
+  background-color: #f5f6fa;
 }
 
 table {
@@ -10,6 +10,7 @@ table {
 
 th {
   border: 1px solid black;
+  padding-bottom: 20px;
 }
 
 .book-form {
@@ -18,6 +19,16 @@ th {
   margin-left: 6.25rem;
   border-top: solid 1px #e8e8e8;
   margin-bottom: 16rem;
+}
+
+.book-form h4 {
+  width: 10.875rem;
+  height: 1.5rem;
+  margin: 1.813rem 32.75rem 0 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.18px;
+  color: #888;
 }
 
 .book-form form input {
