@@ -39,6 +39,16 @@ th {
   color: #121212;
 }
 
+.book-chapter button,
+.book-form form button,
+.book-chapter h4,
+.book-chapter p,
+.book-detail .desc h2,
+.book-detail .desc p,
+.book-detail .desc .links p button {
+  font-family: 'Roboto Slab', serif;
+}
+
 .book-form h4,
 .progress-bar h4,
 .progress-bar p,
@@ -95,16 +105,6 @@ th {
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
-}
-
-.book-chapter button,
-.book-form form button,
-.book-chapter h4,
-.book-chapter p,
-.book-detail .desc h2,
-.book-detail .desc p,
-.book-detail .desc .links p button {
-  font-family: 'Roboto Slab', serif;
 }
 
 .book-detail {
