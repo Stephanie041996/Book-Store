@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 function Nav() {
   return (
@@ -12,6 +14,11 @@ function Nav() {
       <span className="CATEGORIES Text-Style-7">
         CATEGORIES
       </span>
+      <div className="user-icon">
+
+        <FontAwesomeIcon icon={faUser} className="icon" />
+      </div>
+
       {/* <div className="Oval">
         <div className="Mask" />
       </div> */}

@@ -2,12 +2,12 @@ import { CREATE_BOOK, REMOVE_BOOK } from '../actions';
 
 const initialState = {
   books: [{
-    id: Math.floor(Math.random() * 30),
+    id: Math.floor(Math.random() * 101),
     title: 'The Awakening',
     category: 'Sci-Fi',
   },
   {
-    id: Math.floor(Math.random() * 30),
+    id: Math.floor(Math.random() * 101),
     title: 'The First world war',
     category: 'History',
 
