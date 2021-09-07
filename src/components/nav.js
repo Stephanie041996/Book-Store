@@ -19,9 +19,6 @@ function Nav() {
         <FontAwesomeIcon icon={faUser} className="icon" />
       </div>
 
-      {/* <div className="Oval">
-        <div className="Mask" />
-      </div> */}
     </div>
   );
 }
