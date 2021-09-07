@@ -21,7 +21,13 @@ th {
   margin-bottom: 16rem;
 }
 
-.book-form h4, .progress-bar h4, .progress-bar p, .book-detail .desc h4, .Bookstore-CMS, .BOOKS, .CATEGORIES {
+.book-form h4,
+.progress-bar h4,
+.progress-bar p,
+.book-detail .desc h4,
+.Bookstore-CMS,
+.BOOKS,
+.CATEGORIES {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -52,7 +58,13 @@ th {
   background-color: white;
 }
 
-.book-chapter button, .book-form form button, .book-chapter h4, .book-chapter p, .book-detail .desc h2, .book-detail .desc p, .book-detail .desc .links p button {
+.book-chapter button,
+.book-form form button,
+.book-chapter h4,
+.book-chapter p,
+.book-detail .desc h2,
+.book-detail .desc p,
+.book-detail .desc .links p button {
   font-family: 'Roboto Slab', serif;
 }
 
