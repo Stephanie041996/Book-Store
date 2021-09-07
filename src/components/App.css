@@ -247,6 +247,12 @@ th {
   background-color: #fff;
 }
 
+.nav {
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
 .Bookstore-CMS {
   width: 15rem;
   height: 2.313rem;
@@ -254,9 +260,6 @@ th {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   color: #0290ff;
 }
@@ -268,9 +271,6 @@ th {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 1.9px;
   color: #121212;
 }
@@ -283,9 +283,6 @@ th {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 1.9px;
   color: #121212;
 }
@@ -316,18 +313,6 @@ th {
   margin: 0.75rem;
 }
 
-::placeholder {
-  width: 4.75rem;
-  height: 1.188rem;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.15px;
-  color: #c4c4c4;
-}
 
 @media screen and (max-width: 1001px) {
   .user-icon {
