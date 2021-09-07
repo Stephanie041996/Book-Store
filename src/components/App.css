@@ -146,7 +146,6 @@ th {
   background-color: #fff;
 }
 
-
 .book-detail .desc h4 {
   width: 7rem;
   height: 1.125rem;
@@ -191,6 +190,16 @@ th {
 .book-detail .desc .links p {
   width: 4.563rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
+}
+
+.nav,
+.book-form form button,
+.book-detail .desc .links p button,
+.book-detail .desc h2,
+.book-detail .desc h4 {
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
 }
 
 .book-detail .desc .links p button {
@@ -247,16 +256,6 @@ th {
 .panel-bg {
   display: flex;
   width: 75rem;
-}
-
-.nav,
-.book-detail .desc .links p button,
-.book-form form button,
-.book-detail .desc h2,
-.book-detail .desc h4 {
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
 }
 
 .Bookstore-CMS {
