@@ -5,7 +5,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 function Nav() {
   return (
     <div className="navbar">
-      <div className="panel-bg">
+      <div className="panel-bg font-mont">
         <span className="nav Bookstore-CMS">
           Bookstore CMS
         </span>

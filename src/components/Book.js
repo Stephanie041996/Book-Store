@@ -8,7 +8,7 @@ import 'react-circular-progressbar/dist/styles.css';
 const Book = ({ books, remove }) => (
   <div>
     {books.map((book) => (
-      <div className="book-detail">
+      <div className="book-detail font-rob">
         <div className="desc">
           <h4>{book.category}</h4>
           <h2>{book.title}</h2>
@@ -19,7 +19,7 @@ const Book = ({ books, remove }) => (
             <p className="edit">Edit</p>
           </div>
         </div>
-        <div className="progress-bar">
+        <div className="progress-bar font-mont">
           <div className="outer-circle">
             <div style={{ width: 68, height: 68 }} className="circle-bar">
               <CircularProgressbar
@@ -37,7 +37,7 @@ const Book = ({ books, remove }) => (
           </div>
 
         </div>
-        <div className="book-chapter">
+        <div className="book-chapter font-rob">
           <h4>CURRENT CHAPTER</h4>
           <p>
             Chapter 3:

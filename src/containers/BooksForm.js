@@ -49,7 +49,7 @@ const BooksForm = () => {
 
         </select>
 
-        <button type="submit" onClick={handleSubmit}>Add Book</button>
+        <button className="font-rob" type="submit" onClick={handleSubmit}>Add Book</button>
       </form>
     </div>
   );
