@@ -70,6 +70,26 @@ th {
   border: none;
 }
 
+.book-form h4,
+.progress-bar h4,
+.progress-bar p,
+.book-detail .desc h4,
+.Bookstore-CMS,
+.BOOKS,
+.CATEGORIES {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.book-chapter button,
+.book-form form button,
+.book-chapter h4,
+.book-chapter p,
+.book-detail .desc h2,
+.book-detail .desc p,
+.book-detail .desc .links p button {
+  font-family: 'Roboto Slab', serif;
+}
+
 .book-form form button {
   width: 11.5rem;
   height: 2.813rem;
@@ -92,26 +112,6 @@ th {
   margin: 0.438rem 6.813rem 0.25rem 3.688rem;
   font-size: 0.9rem;
   letter-spacing: -0.4px;
-}
-
-.book-chapter button,
-.book-form form button,
-.book-chapter h4,
-.book-chapter p,
-.book-detail .desc h2,
-.book-detail .desc p,
-.book-detail .desc .links p button {
-  font-family: 'Roboto Slab', serif;
-}
-
-.book-form h4,
-.progress-bar h4,
-.progress-bar p,
-.book-detail .desc h4,
-.Bookstore-CMS,
-.BOOKS,
-.CATEGORIES {
-  font-family: 'Montserrat', sans-serif;
 }
 
 .book-form form input {
