@@ -24,20 +24,32 @@ const BooksForm = () => {
     e.preventDefault();
   };
 
-  const bookCategory = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
+  const bookCategory = ['Category', 'Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
   const { title, category } = book;
   return (
     <div className="book-form">
+      <h4>
+        ADD NEW BOOK
+      </h4>
       <form>
-        <input id="book" name="title" placeholder="Add title" value={title} onChange={handleChange} />
-        <select name="category" id="book-category" onChange={handleChange} value={category}>
-          {bookCategory.map((x) => (
-            <option key={x}>{x}</option>
-          ))}
+        <input id="book" name="title" placeholder="Book title" value={title} onChange={handleChange} />
+        <select name="category" id="book-category" onChange={handleChange} value={category} placeholder="Category">
+          {bookCategory.map((x) => {
+            if (x === 'Category') {
+              return (
+                <option key={x} hidden className="place">{x}</option>
+              );
+            }
+
+            return (
+
+              <option key={x}>{x}</option>
+            );
+          })}
 
         </select>
 
-        <button type="submit" onClick={handleSubmit}>Add Book</button>
+        <button className="font-rob" type="submit" onClick={handleSubmit}>Add Book</button>
       </form>
     </div>
   );
