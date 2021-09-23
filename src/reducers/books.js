@@ -23,16 +23,15 @@ const initialState = {
 };
 
 const bookReducer = (state = initialState, action) => {
-  let result;
   switch (action.type) {
     case CREATE_BOOK:
-      result = [...state, action.book];
-      return result;
+      return { books: [...state.books, action.book] };
 
     case REMOVE_BOOK:
-      result = state.slice(0, state.findIndex((ele) => ele.Id === action.book))
-        .concat(state.slice(state.findIndex((ele) => ele.Id === action.book) + 1, state.length));
-      return result;
+      return {
+        ...state,
+        books: state.books.filter((item, index) => index !== action.payload),
+      };
     default:
       return state;
   }

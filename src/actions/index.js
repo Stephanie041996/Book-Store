@@ -11,9 +11,9 @@ const createBook = (book) => ({
 
 });
 
-const removeBook = (book) => ({
+const removeBook = (index) => ({
   type: REMOVE_BOOK,
-  book,
+  payload: index,
 
 });
 
